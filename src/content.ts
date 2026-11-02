@@ -17,19 +17,17 @@ export const projects = [
     "slug": "designat7",
     "title": "Design@7",
     "category": "Web",
-    "status": "Live website",
+    "status": "Live · Ongoing content & SEO",
     "label": "01 / CREATIVE & DIGITAL",
     "theme": "aripo",
-    "summary": "A digital home for a creative agency working across design, web, cloud services and branding.",
-    "context": "Design@7 brings a broad range of creative and technology services together. Its website presents those capabilities alongside company information, portfolio work, a shop and routes to enquire.",
-    "role": "I carried out the majority of the website development for Design@7. My contribution is to the website; the agency’s brand, creative work and wider client portfolio remain distinct from my individual development work.",
+    "summary": "I built the company website and now manage its content and ongoing SEO.",
+    "role": "I built the website for Design@7 and continue to manage its website content and SEO.",
     "approach": [
-      "Bringing different service areas into one website experience.",
-      "Presenting company information and portfolio work through clear navigation.",
-      "Connecting visitors with service information and enquiry routes."
+      "Developed the website for the company.",
+      "Manage and update the website’s content.",
+      "Carry out ongoing SEO to improve the site’s visibility in search."
     ],
-    "outcome": "The website is publicly accessible and presents the agency’s services and work. No conversion, revenue or traffic uplift is claimed.",
-    "next": "Primary development contribution; not a claim of sole authorship. A more detailed breakdown of custom changes, tools and team responsibilities can be added to the project record.",
+    "outcome": "The company website is live. It now ranks highly for relevant searches; search positions can vary by query and over time.",
     "tags": [
       "Website development",
       "Agency website"
@@ -37,7 +35,7 @@ export const projects = [
     "screenshot": "./screenshots/designat7.png",
     "screenshotCaption": "Design@7 homepage · captured 2 November 2026",
     "url": "https://designat7.com",
-    "attribution": "Primary development contribution.",
+    "attribution": "Website development, content management and SEO.",
     "featured": true
   },
   {
@@ -47,16 +45,14 @@ export const projects = [
     "status": "Live website",
     "label": "02 / INSTITUTIONAL & EVENTS",
     "theme": "aripo",
-    "summary": "An anniversary website bringing ARIPO’s celebrations, events and conference information together.",
-    "context": "ARIPO’s 50th anniversary has a dedicated website for celebrations and the Africa IP Conference & Exhibition. The public experience includes event information and routes to conference registration.",
-    "role": "I carried out the majority of the development work on the ARIPO 50th celebrations website. This is a dedicated anniversary project, not a claim that I developed ARIPO’s main corporate website. The public site credits Design@7 Visual Works.",
+    "summary": "Lead developer for the ARIPO 50th celebrations website, working with Design@7 and continuing to support it.",
+    "role": "I developed the ARIPO 50th celebrations website as lead developer, collaborating with Design@7. I continue to provide support for the site.",
     "approach": [
-      "Presenting the anniversary identity in a dedicated web experience.",
-      "Organising celebration and conference information for visitors.",
-      "Providing routes to event details and the external registration form."
+      "Led development of the dedicated 50th anniversary website.",
+      "Collaborated with the Design@7 team on the project.",
+      "Continue to support the website after launch."
     ],
-    "outcome": "The anniversary website is live at aripo50.aripo.org. The public pages show event information and registration links; attendance and registration outcomes are not claimed.",
-    "next": "This case study covers the anniversary website. Specific custom components and team responsibilities can be documented separately from the wider agency delivery.",
+    "outcome": "The celebrations website is live, and I remain involved through ongoing support.",
     "tags": [
       "Event website",
       "Institutional website"
@@ -64,26 +60,24 @@ export const projects = [
     "screenshot": "./screenshots/aripo50.png",
     "screenshotCaption": "ARIPO 50th anniversary homepage · captured 2 November 2026",
     "url": "https://aripo50.aripo.org",
-    "attribution": "Primary development contribution. Public site credit: Design@7 Visual Works.",
+    "attribution": "Lead developer in collaboration with Design@7.",
     "featured": true
   },
   {
     "slug": "motsatsi-media",
     "title": "Motsatsi Media",
-    "category": "SEO",
-    "status": "Website & ongoing SEO",
+    "category": "Web",
+    "status": "Live · Ongoing support",
     "label": "03 / PUBLISHING & DISCOVERY",
     "theme": "operations",
-    "summary": "Website development and ongoing SEO responsibility for a Rwanda-based media publication.",
-    "context": "Motsatsi Media publishes news, business and other editorial content for readers across Africa. A publishing website needs to make a growing collection of stories accessible and easy to navigate.",
-    "role": "I carried out the majority of the website development and am responsible for its SEO. My contribution covers the website and search work, rather than the publication’s journalism or editorial authorship.",
+    "summary": "I developed the publication website, uploaded its initial stories and news, and continue to support the site.",
+    "role": "I developed the Motsatsi Media website and uploaded its initial stories and news content. I now support the site as journalists publish new articles.",
     "approach": [
-      "Developing the web presence for an editorial publication.",
-      "Presenting stories through category navigation and article layouts.",
-      "Taking responsibility for ongoing SEO work alongside the website."
+      "Developed the website for the publication.",
+      "Uploaded the initial stories and news content.",
+      "Provide ongoing site support as journalists add new articles."
     ],
-    "outcome": "The website is live with published articles and category navigation. SEO is an ongoing responsibility; no ranking positions, traffic growth or audience figures are claimed.",
-    "next": "Specific SEO changes and results should be supported with dated work records and approved analytics before being added to this case study.",
+    "outcome": "The publication website is live. Journalists manage new posts, and I continue to provide website support.",
     "tags": [
       "Website development",
       "SEO",
@@ -92,26 +86,24 @@ export const projects = [
     "screenshot": "./screenshots/motsatsi-media.png",
     "screenshotCaption": "Motsatsi Media homepage · captured 2 November 2026",
     "url": "https://motsatsimedia.com",
-    "attribution": "Primary website development and SEO responsibility.",
+    "attribution": "Website developer, initial content upload and ongoing support.",
     "featured": true
   },
   {
     "slug": "hyundai-zimbabwe",
     "title": "Hyundai Zimbabwe",
     "category": "SEO",
-    "status": "Website & ongoing SEO",
+    "status": "Live · Ongoing SEO",
     "label": "04 / AUTOMOTIVE & SEARCH",
     "theme": "operations",
-    "summary": "Website development and ongoing SEO responsibility for Hyundai Zimbabwe.",
-    "context": "Hyundai Zimbabwe’s website helps visitors explore vehicles, parts and service information, with routes to make an enquiry. Search visibility and clear website information support that customer journey.",
-    "role": "I carried out the majority of the website development work and am responsible for SEO. The public website credits Design@7 for development and hosting; my role is an individual contribution within that delivery context.",
+    "summary": "Lead developer for Hyundai Zimbabwe’s website at Design@7; now responsible for its SEO.",
+    "role": "I was the lead developer for the Hyundai Zimbabwe website while working at Design@7. I now manage ongoing SEO for the site.",
     "approach": [
-      "Working on a website that presents vehicle and aftersales information.",
-      "Supporting the web journey from browsing to making an enquiry.",
-      "Taking responsibility for the site’s ongoing SEO work."
+      "Led development of the Hyundai Zimbabwe website at Design@7.",
+      "Now provide ongoing SEO for the website.",
+      "Work to improve the site’s visibility for relevant vehicle and service searches."
     ],
-    "outcome": "The website provides vehicle, parts and maintenance information. SEO work is ongoing. No sales attribution, enquiry increase or search-ranking improvement is claimed.",
-    "next": "A more detailed account can include the exact pages and SEO changes I worked on, supported by approved before-and-after evidence rather than estimated results.",
+    "outcome": "The website is live, and I continue to manage its SEO. It currently ranks first for many relevant searches; rankings vary by query and over time.",
     "tags": [
       "Website development",
       "SEO",
@@ -120,26 +112,24 @@ export const projects = [
     "screenshot": "./screenshots/hyundai.png",
     "screenshotCaption": "Hyundai Zimbabwe homepage · captured 2 November 2026",
     "url": "https://hyundai.co.zw",
-    "attribution": "Primary development contribution and SEO responsibility. Site credit: Design@7.",
+    "attribution": "Lead developer at Design@7; ongoing SEO.",
     "featured": false
   },
   {
     "slug": "d7-technode",
     "title": "D7 TechNode",
     "category": "Web",
-    "status": "Live website",
+    "status": "Recently launched",
     "label": "05 / TECHNOLOGY & IOT",
     "theme": "operations",
-    "summary": "A website explaining connected infrastructure, IoT solutions and sector-specific services.",
-    "context": "D7 TechNode presents infrastructure monitoring and automation solutions across different sectors. The website translates that technical offering into solution pages, hardware information and a route to request a demonstration.",
-    "role": "I carried out the majority of the website development. This case study covers the website experience, rather than claiming I personally engineered every sensor, cloud platform or automation capability described by the company.",
+    "summary": "I developed the D7 TechNode website from scratch in TypeScript; the site has just launched.",
+    "role": "I developed the D7 TechNode website from scratch using TypeScript, building the web experience for the company’s connected infrastructure and IoT solutions.",
     "approach": [
-      "Communicating a technical infrastructure offering through the website.",
-      "Organising solutions, sector information and hardware content.",
-      "Presenting clear contact and demonstration routes."
+      "Built the website from the ground up in TypeScript.",
+      "Created pages to present the company’s solutions, sectors and hardware.",
+      "Prepared the new website for launch."
     ],
-    "outcome": "The website is publicly accessible. Website delivery is distinct from the operational status of the company’s underlying IoT products and deployments.",
-    "next": "The homepage includes a visual telemetry presentation. It should not be treated as evidence of live device integration or field deployments without separate verification.",
+    "outcome": "The website has just launched and is publicly accessible. This project covers the website; it does not claim that the underlying IoT products or deployments were developed as part of this work.",
     "tags": [
       "Website development",
       "Technical communication",
@@ -148,7 +138,7 @@ export const projects = [
     "screenshot": "./screenshots/d7-technode.png",
     "screenshotCaption": "D7 TechNode homepage · captured 2 November 2026",
     "url": "https://d7technode.com",
-    "attribution": "Primary website development contribution.",
+    "attribution": "Website developed from scratch in TypeScript.",
     "featured": false
   },
   {
@@ -158,16 +148,14 @@ export const projects = [
     "status": "Pilot stage",
     "label": "06 / FAITH & DIGITAL PRODUCT",
     "theme": "faith",
-    "summary": "A faith-focused digital product in pilot for the ZAOGA Forward In Faith community.",
-    "context": "Legacy’s public entry page is framed around encouragement, scripture, prayer and community for Forward In Faith. It is a developing digital product rather than a completed general-release service.",
-    "role": "I have carried out the majority of the product development. Legacy AI remains in pilot, with further work required before it can be presented as a finished product.",
+    "summary": "A ZAOGA Forward In Faith community platform for prayer, spiritual journeys, announcements, devotions and Bible-grounded answers.",
+    "role": "I am building Legacy AI as a digital platform for the ZAOGA Forward In Faith community, bringing spiritual resources and community features together.",
     "approach": [
-      "Developing a digital product around a faith-community use case.",
-      "Presenting a branded entry experience for the Forward In Faith community.",
-      "Continuing product development through a pilot stage."
+      "Building a community space for prayer and personal spiritual journeys.",
+      "Including announcements and devotional content for the community.",
+      "Developing a church chatbot that answers using the Bible and ministry documents uploaded to the platform."
     ],
-    "outcome": "A pilot preview is accessible and shows sign-in and joining entry points. Authenticated features, AI behaviour and production readiness have not been independently tested for this portfolio.",
-    "next": "The screenshot shows the public sign-in page only. Feature-level demonstrations will be added when the implemented pilot capabilities can be described and shown accurately.",
+    "outcome": "Legacy AI is in pilot development. The platform is being built around these community features and a church chatbot designed to answer only from the Bible and ministry documents uploaded to the platform.",
     "tags": [
       "AI product",
       "Pilot",
@@ -176,7 +164,7 @@ export const projects = [
     "screenshot": "./screenshots/legacy-ai.png",
     "screenshotCaption": "Legacy public sign-in page · pilot preview captured 2 November 2026",
     "url": "https://legacy-ai-git-preview-zaoga-pilot-munashe.vercel.app/",
-    "attribution": "Primary development contribution. Pilot product, not a completed public release.",
+    "attribution": "Product in development for the ZAOGA Forward In Faith community.",
     "featured": false
   }
 ];
