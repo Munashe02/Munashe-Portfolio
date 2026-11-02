@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import ts from 'typescript';
+const source=fs.readFileSync(new URL('../src/content.ts',import.meta.url),'utf8');
+const js=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.ESNext}}).outputText;
+const {profile,projects,services}=await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
+test('case study slugs are unique and linkable',()=>{assert.equal(new Set(projects.map(p=>p.slug)).size,projects.length);for(const p of projects)assert.match(p.slug,/^[a-z0-9-]+$/);});
+test('anniversary scope and agency credit remain explicit; Legacy remains a pilot',()=>{const aripo=projects.find(p=>p.slug==='aripo');assert.match(aripo.role,/not a claim that I developed ARIPO/);assert.match(aripo.attribution,/Design@7/);assert.equal(projects.find(p=>p.slug==='legacy-faith-ai').status,'Pilot stage');});
+test('every case study includes contribution, outcome and evidence next step',()=>{for(const p of projects)for(const key of ['context','role','outcome','next'])assert.ok(p[key]?.length>30,`${p.slug}: ${key}`);});
+test('contact destinations match the owner supplied details',()=>{assert.equal(profile.email,'gwazemunashe02@gmail.com');assert.equal(profile.phone,'+263773259186');assert.equal(profile.alternatePhone,'+263714651299');assert.equal(profile.whatsapp,'263714651299');});
+test('all six public projects have real screenshots and HTTPS destinations',()=>{assert.equal(projects.length,6);for(const p of projects){assert.ok(p.url.startsWith('https://'));assert.ok(fs.existsSync(new URL('../public/'+p.screenshot.replace('./',''),import.meta.url)),p.slug);}});
+test('service identifiers used in enquiry links are unique',()=>{assert.equal(new Set(services.map(s=>s.id)).size,services.length);});
