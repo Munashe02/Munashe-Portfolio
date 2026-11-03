@@ -22,7 +22,7 @@ Pages: `#/`, `#/services`, `#/work`, `#/work/aripo`, `#/work/legacy-faith-ai`, `
 
 Hash routes deliberately work on static hosts and project subdirectories without rewrite configuration. They trade cleaner URLs and independently indexable case-study documents for straightforward static deployment. For a larger SEO campaign, migrate to prerendered routes.
 
-Contact form: validates name, email and message, then generates a brief for copying or opening in an email or WhatsApp draft. The visitor sends the message from their own app; this website does not deliver email or store enquiries. Supplied email and both phone numbers are shown, with +263714651299 used for WhatsApp.
+Contact form: validates name, email and message, then generates a brief for copying or opening in an email or WhatsApp draft. The visitor sends the message from their own app; this website does not deliver email or store enquiries. Supplied email and both phone numbers are shown, with +263714651299 used for WhatsApp. Service enquiries include full-stack development, database management, data entry and analytics, and defensive cybersecurity support for authorized systems.
 
 Set a case study's `screenshot` to an approved image path (for example `./screenshots/aripo.webp`) after adding the file under `public/screenshots/`. All six listed projects now use real public-page screenshots captured on 2 November 2026. See public/screenshots/SOURCES.md. Do not publish client material without permission.
 

@@ -1,6 +1,10 @@
 # Portfolio project context — Munashe L. Gwaze
 
-Updated 2 November 2026 from project details supplied by Munashe. The website case studies describe his individual role and ongoing responsibilities; company and project work delivered with Design@7 is identified as collaborative where relevant.
+Updated 3 November 2026 from project details supplied by Munashe. The website case studies describe his individual role and ongoing responsibilities; company and project work delivered with Design@7 is identified as collaborative where relevant.
+
+## Skills and services
+
+The portfolio also presents Munashe's broader capabilities: full-stack development; database management; data entry and analytics; SEO; website and IT support; and defensive cybersecurity focused on security hygiene for systems he is authorized to manage. Specific deliverables and scope are agreed for each engagement.
 
 ## Design@7
 
