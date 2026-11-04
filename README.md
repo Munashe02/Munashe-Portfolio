@@ -32,13 +32,11 @@ See PROJECT-CONTEXT.md for the six updated case-study descriptions. Contact deta
 
 The original business operations platform entry remains in draftProjects in src/content.ts for future expansion and does not appear in selected work. A genuine CV can be linked through profile.resume.
 
-## Deploy as a new site
+## Deployment
 
 Build with `npm ci` then `npm run build`. Publish only the contents of `dist/` to a NEW static site. For Netlify or similar static hosts, use build command `npm run build` and output `dist`. No environment variables or backend are required. The Vite base is relative, so asset links support subdirectories.
 
-This project is deployed from the `Munashe02/Munashe-Portfolio` repository. In Settings > Pages, choose GitHub Actions as the source. The included workflow uploads only `dist`, which includes the built assets. The workflow is manually triggered from Actions > Deploy separate portfolio > Run workflow on `main`; subsequent source pushes do not deploy automatically.
-
-The included workflow deploys on manual dispatch only. Run it after changes you want to publish. The separate repository and workflow leave the earlier portfolio untouched.
+This project is deployed from the `Munashe02/Munashe-Portfolio` repository. In Settings > Pages, choose GitHub Actions as the source. The included workflow uploads only `dist`, which includes the built assets. The workflow is manually triggered from Actions > Deploy separate portfolio > Run workflow on `main`; subsequent source pushes do not deploy automatically. The separate repository and workflow leave the earlier portfolio untouched.
 
 ## Client acquisition roadmap
 
