@@ -1,6 +1,6 @@
 # Munashe L. Gwaze — Portfolio 2.0
 
-A separate React + TypeScript + Vite + Tailwind project. The existing live portfolio has not been modified. No site has been deployed.
+A separate React + TypeScript + Vite + Tailwind project. It is deployed as its own GitHub Pages site; the earlier portfolio remains untouched.
 
 ## Run locally
 
@@ -16,7 +16,7 @@ Open the Local URL printed by Vite. Production check:
 
 ## Edit the content
 
-`src/content.ts` holds the profile, contact details, services and case studies. `src/styles.css` holds the dark navy / lime design system and responsive layouts. `src/main.tsx` holds page composition and interactions.
+`src/content.ts` holds the profile, contact details, services and case studies. `src/styles.css` holds the dark navy / lime design system, `src/story.css` styles the story-led homepage, and `src/main.tsx` holds page composition and interactions.
 
 Pages: `#/`, `#/services`, `#/work`, `#/work/aripo`, `#/work/legacy-faith-ai`, `#/work/business-operations`, `#/about`, `#/recruiters`, `#/contact`.
 
@@ -36,9 +36,9 @@ The original business operations platform entry remains in draftProjects in src/
 
 Build with `npm ci` then `npm run build`. Publish only the contents of `dist/` to a NEW static site. For Netlify or similar static hosts, use build command `npm run build` and output `dist`. No environment variables or backend are required. The Vite base is relative, so asset links support subdirectories.
 
-For GitHub Pages, create a NEW repository such as `portfolio-2` (not the existing `my-portfolio`). Push this source, enable GitHub Pages with GitHub Actions, and use the included workflow. In Settings > Pages choose GitHub Actions. It uploads only `dist`, which includes the built assets. Test the new URL before considering a future switch of your main portfolio.
+This project is deployed from the `Munashe02/Munashe-Portfolio` repository. In Settings > Pages, choose GitHub Actions as the source. The included workflow uploads only `dist`, which includes the built assets. The workflow is manually triggered from Actions > Deploy separate portfolio > Run workflow on `main`; subsequent source pushes do not deploy automatically.
 
-The included workflow deploys on manual dispatch only. You must intentionally run it after creating the repository and reviewing the content. It cannot alter the existing portfolio unless deliberately installed in that repository.
+The included workflow deploys on manual dispatch only. Run it after changes you want to publish. The separate repository and workflow leave the earlier portfolio untouched.
 
 ## Client acquisition roadmap
 
